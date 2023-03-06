@@ -1,0 +1,16 @@
+body{
+    margin: 0%;
+    align-items: flex-start;
+    background-color: #ff5b00;
+    border: 1px none;
+    display: flex;
+    gap: 25px;
+    height: auto;
+    width: auto;
+    font-family: monospace ;
+}
+
+
+.my-name{
+    font-size: 100px;
+}

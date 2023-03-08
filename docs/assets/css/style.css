@@ -7,7 +7,7 @@ body{
     gap: 25px;
     height: auto;
     width: auto;
-    font-family: monospace ;
+    font-family:'Nunito';
 }
 
 .navbar{
@@ -18,19 +18,33 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.menu--item{
+    padding: 10%
 }
 
 .section--home{
     display:block;
-    font-size: 100px;
     height:100vh;
 }
 
+.title--cian--tarrant{
+    font-size: 100px;
+    text-align: center;
+}
+
 .test{
-        display: block;
-        width: 100px;
-        height: 100px;
-        padding: 5px;
-        border: 1px solid blue; 
-        background-color: yellow; 
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue; 
+    background-color: yellow; 
+}
+
+.menu--item{
+
 }

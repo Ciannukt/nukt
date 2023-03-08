@@ -16,7 +16,7 @@ body{
     display:block;
     overflow: hidden;
     /*background-color: #ff5b00*/
-    font-size: 18px;
+    font-size: 1.2vw;
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,7 +34,7 @@ body{
 }
 
 .title--cian--tarrant{
-    font-size: 100px;
+    font-size: 10vw;
     text-align: center;
 }
 

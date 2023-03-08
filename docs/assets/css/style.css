@@ -3,14 +3,34 @@ body{
     align-items: flex-start;
     background-color: #ff5b00;
     border: 1px none;
-    display: flex;
+    display: block;
     gap: 25px;
     height: auto;
     width: auto;
     font-family: monospace ;
 }
 
+.navbar{
+    display:block;
+    overflow: hidden;
+    /*background-color: #ff5b00*/
+    font-size: 25px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
-.my-name{
+.section--home{
+    display:block;
     font-size: 100px;
+    height:100vh;
+}
+
+.test{
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+        border: 1px solid blue; 
+        background-color: yellow; 
 }
